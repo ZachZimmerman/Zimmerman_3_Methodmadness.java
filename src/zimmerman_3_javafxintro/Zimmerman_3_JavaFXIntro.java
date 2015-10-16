@@ -34,6 +34,7 @@ public class Zimmerman_3_JavaFXIntro extends Application {
         primaryStage.show();
     }
       
+    
     private void drawSomeCircle(GraphicsContext gc, int x, int y, int d) {
    // gc.setStroke(Color.web("BLUE",.02));
     gc.fillOval(x, y, d, d);
